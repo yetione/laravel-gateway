@@ -10,5 +10,20 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^7",
+        "bensampo/laravel-enum": "^2.1",
+        "guzzlehttp/guzzle": "^7",
+        "symfony/options-resolver": "^5.1",
+        "webpatser/laravel-uuid": "^3.0",
+        "ext-json": "*",
+        "illuminate/contracts": "^7",
+        "yetione/php-json": "^1.2",
+        "illuminate/http": "^7",
+        "illuminate/auth": "^7"
+    },
+    "autoload": {
+        "psr-4": { "Yetione\\Gateway\\": "src/"}
+    }
 }
