@@ -1,0 +1,14 @@
+{
+    "name": "yetione/laravel-gateway",
+    "description": "Gateway for Laravel\\Lumen",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yeti",
+            "email": "jub45@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
